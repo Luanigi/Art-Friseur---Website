@@ -101,12 +101,6 @@ nav ul li a {
     color: #fff;
 }
 
-
-
-
-
-
-
 ul { 
     padding: 0; 
     list-style: none; 
@@ -120,7 +114,7 @@ ul {
     display: inline-block;
     position: relative;
   }
-  .nav-hover:after {    
+  .nav-hover::after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -132,18 +126,10 @@ ul {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  .nav-hover:hover:after { 
+  .nav-hover:hover::after { 
     width: 100%; 
     left: 0; 
   }
-
-
-
-
-
-
-
-
 
 #menuBtn {
     width: 50px;
